@@ -9,8 +9,8 @@ dependencies:
   flutter:
     sdk: flutter
   
-  intro_slider:
-    path: ../
+  intro_slider: ^3.0.10
+    
   http: ^0.13.5
 
 dev_dependencies:
