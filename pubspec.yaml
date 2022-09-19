@@ -1,5 +1,6 @@
 name: intro_slider_example
 description: Demonstrates how to use the intro_slider plugin.
+version: 2.0.0+8
 
 environment:
   sdk: ">=2.17.0 <3.0.0"
