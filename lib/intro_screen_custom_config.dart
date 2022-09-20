@@ -1,5 +1,5 @@
 import 'dart:developer';
-import 'package:fullscreen/fullscreen.dart';
+
 import 'package:flutter/material.dart';
 import 'package:intro_slider/intro_slider.dart';
 import 'package:http/http.dart' as http;
@@ -43,7 +43,7 @@ class IntroScreenCustomConfigState extends State<IntroScreenCustomConfig> {
   }
 
   void _exit() async {
-    await FullScreen.exitFullScreen();
+    
   }
 
   Future<bool> loadpages() async {
@@ -115,7 +115,7 @@ class IntroScreenCustomConfigState extends State<IntroScreenCustomConfig> {
         child: CircularProgressIndicator(),
       );
     } else {
-      FullScreen.enterFullScreen(FullScreenMode.EMERSIVE_STICKY);
+      
         return InteractiveViewer(child: IntroSlider(
           // List slides
           slides: slides,
