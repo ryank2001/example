@@ -1,4 +1,4 @@
-import 'dart:developer';
+
 import 'package:intro_slider_example/intro_screen_custom_config.dart';
 import 'package:flutter/material.dart';
 
